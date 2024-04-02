@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  padding: 0 30px;
+  background: rgb(9, 9, 9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+ 
+}
+.navbar>img{
+  height: 70px;
+  width: 140px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px azure;
+}
+.navbar>div{
+  color: white;
+  font-size: 40px;
+}
+.input{
+  background-color: rgba(206, 48, 48, 0.984);
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 10px; */
+}
+.input>input{
+  height: 40px;
+  width: 80PX;
+  flex-grow: 0.8;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.input>input::placeholder{
+  color: rgb(223, 118, 79);
+  text-align: center;
+}
+.input>input:focus{
+  outline: none;
+  border: none;
+  box-shadow:0 0 10px rgb(5, 5, 5);
+}
+.input>button{
+  height: 40px; 
+  text-align: center;
+  padding: 10px;
+  color: white;
+   font-size: 15px; 
+  background-color: rgb(12, 12, 12);
+  border-radius: 10px;
+}
+.input>button:hover{
+  color: rgb(188, 213, 43);
+  background-color: rgb(8, 8, 8);
+  box-shadow: 0 0 10px aqua;
+  scale: 1.2;
+}
